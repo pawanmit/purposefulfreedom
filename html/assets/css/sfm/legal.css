@@ -1,0 +1,59 @@
+body {
+    background:#F5F5F5;
+    color: #5a5a5a;
+    font-size: 15px;
+}
+.tabsdiv {
+    margin-top: 40px;
+}
+.content {
+    background: #fff;
+    padding: 25px;
+}
+ul.tabs li {
+    float: left;
+    margin: 0px;
+    list-style: none;
+}
+ul.tabs .tab-active a {
+    color: #fff;
+}
+ul.tabs .tab-active a {
+    background-color: #f1c40f!important;
+}
+ul.tabs li a {
+    display: block;
+    background-color: #e5e5e5;
+    padding: 6px 20px;
+    margin-right: 5px;
+    border-radius: 2px 2px 0px 0px;
+    color: #666;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-tabs > li > a {
+    border: none;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #f1c40f;
+    border: transparent;
+    border-bottom-color: transparent;
+    border: none;
+}
+h3 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 0px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+}
