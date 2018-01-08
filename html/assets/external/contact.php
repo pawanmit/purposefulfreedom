@@ -1,8 +1,8 @@
 <?php
 mb_internal_encoding("UTF-8");
-$name = "Pawan";
-$email = "mitpawan@gmail.com";
-$message = "Hi this is a hard coded message";
+$name = $_POST['name'];
+$email = $_POST['email'];
+$message = $_POST['message'];
 
 $to = 'pawan@purposefulfreedom.net';
 $subject = 'Message From Your Website Contact Form';
