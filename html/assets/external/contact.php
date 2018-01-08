@@ -4,7 +4,7 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 
-$to = 'klitao@godaddy.com';
+$to = 'mitpawan@gmail.com';
 $subject = 'Message From Your Website Contact Form';
 
 $body = "";
