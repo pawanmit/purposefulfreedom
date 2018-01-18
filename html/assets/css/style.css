@@ -16,7 +16,7 @@ Assigned to:	ThemeStarz
 
 [Color codes]
 
-Default: #37b048;
+Default: #008F95;
 Color grey dark: #000;
 Color neutral: #edeae1;
 
@@ -118,7 +118,7 @@ Headers:		'Lato', sans-serif;
   visibility: hidden;
   content: "";
   height: 3px;
-  background-color: #37b048;
+  background-color: #008F95;
   position: absolute;
   width: 100%;
   bottom: -10px;
@@ -132,7 +132,7 @@ Headers:		'Lato', sans-serif;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   bottom: -32px;
-  background-color: #37b048;
+  background-color: #008F95;
   height: 65px;
   width: 65px;
   position: absolute;
@@ -168,7 +168,7 @@ a {
   -moz-transition: 0.3s;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  color: #37b048;
+  color: #008F95;
 }
 
 #footer a {
@@ -203,7 +203,7 @@ a.link.arrow:after {
   margin-left: 10px;
 }
 a.link.underline {
-  border-bottom: 3px solid #37b048;
+  border-bottom: 3px solid #008F95;
   padding-bottom: 8px;
 }
 
@@ -215,20 +215,20 @@ address a {
   color: black;
 }
 address a:hover, address a:focus, address a:active {
-  color: #37b048;
+  color: #008F95;
 }
 address .info {
   margin-bottom: 10px;
 }
 address .info i {
-  color: #37b048;
+  color: #008F95;
   margin-right: 20px;
 }
 
 body {
   color: black;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: AvenirNext, 'Lato', sans-serif;
   position: relative;
 }
 
@@ -243,7 +243,7 @@ blockquote p {
   position: relative;
 }
 blockquote footer {
-  color: #37b048;
+  color: #008F95;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
@@ -275,7 +275,7 @@ h1 {
 h2 {
   font-size: 30px;
   font-weight: bold;
-  color: #37b048;
+  color: #008F95;
   margin-bottom: 40px;
 }
 
@@ -334,7 +334,7 @@ img {
   background-color: #edeae1;
 }
 .bg.bg-color-default {
-  background-color: #37b048;
+  background-color: #008F95;
 }
 .bg.bg-color-default-darker {
   background-color: #2b8938;
@@ -565,7 +565,7 @@ img {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
-  border: 2px solid #37b048;
+  border: 2px solid #008F95;
   padding: 5px 10px;
   color: black;
   font-weight: bold;
@@ -602,7 +602,7 @@ img {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background-color: #37b048;
+  background-color: #008F95;
   color: #fff;
   padding: 10px;
 }
@@ -674,7 +674,7 @@ img {
 }
 
 .feature-box > i {
-  color: #37b048;
+  color: #008F95;
   font-size: 56px;
   marign-bottom: 90px;
 }
@@ -756,7 +756,7 @@ img {
   margin-left: 10px;
 }
 #footer .right .bg-right {
-  background-color: #37b048;
+  background-color: #008F95;
   height: 100%;
   width: 2000px;
   top: 0;
@@ -789,7 +789,7 @@ img {
   font-weight: bold;
 }
 .modal.workshop-detail .modal-header .time i {
-  color: #37b048;
+  color: #008F95;
   margin-right: 5px;
 }
 
@@ -823,7 +823,7 @@ img {
   text-align: center;
 }
 .numbers .number figure {
-  color: #37b048;
+  color: #008F95;
   font-size: 48px;
 }
 .numbers .number aside {
@@ -841,7 +841,7 @@ img {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background-color: #37b048;
+  background-color: #008F95;
 }
 .pagination li a, .pagination li a:hover {
   -moz-border-radius: 50%;
@@ -872,7 +872,7 @@ img {
   color: rgba(0, 0, 0, 0.5);
 }
 .pricing ul li i {
-  color: #37b048;
+  color: #008F95;
   font-size: 18px;
 }
 .pricing .price-box, .pricing .description {
@@ -891,7 +891,7 @@ img {
   position: relative;
 }
 .pricing .price-box.promoted {
-  background-color: #37b048;
+  background-color: #008F95;
   color: #fff;
 }
 .pricing .price-box.promoted li, .pricing .price-box.promoted i {
@@ -926,7 +926,7 @@ img {
 }
 
 .sidebar h3 {
-  color: #37b048;
+  color: #008F95;
   font-size: 24px;
   margin-top: 0;
 }
@@ -978,7 +978,7 @@ img {
   -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
   width: 50px;
-  background-color: #37b048;
+  background-color: #008F95;
   position: relative;
 }
 .steps .step figure .arrow {
@@ -991,7 +991,7 @@ img {
   background-repeat: no-repeat;
 }
 .steps .step h3 {
-  color: #37b048;
+  color: #008F95;
   font-size: 18px;
 }
 .steps .step p {
@@ -1071,13 +1071,13 @@ body, html { height: 100%; }
   margin-top: 5px;
 }
 .workshop-list .workshop .date-info .time i {
-  color: #37b048;
+  color: #008F95;
   margin-right: 10px;
 }
 .workshop-list .workshop h4 {
   font-size: 18px;
   font-weight: bold;
-  color: #37b048;
+  color: #008F95;
 }
 
 /* 6. Forms */
@@ -1153,8 +1153,7 @@ textarea {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   text-transform: uppercase;
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 20px;
   padding: 8px 15px;
 }
 .btn:hover, .btn:active, .btn:focus {
@@ -1164,13 +1163,13 @@ textarea {
   outline: none !important;
 }
 .btn.btn-default {
-  border: 2px solid #37b048;
-  color: #37b048;
+  border: 2px solid #008F95;
+  color: #008F95;
   background-color: transparent;
 }
 .btn.btn-default:hover, .btn.btn-default:active, .btn.btn-default:focus {
-  border: 2px solid #37b048;
-  background-color: #37b048;
+  border: 2px solid #008F95;
+  background-color: #008F95;
   color: #fff;
 }
 .btn.btn-default.btn-white {
@@ -1179,14 +1178,14 @@ textarea {
 }
 .btn.btn-default.btn-white:hover, .btn.btn-default.btn-white:active, .btn.btn-default.btn-white:focus {
   background-color: #fff;
-  color: #37b048;
+  color: #008F95;
 }
 .btn.btn-default.btn-black {
   border: 2px solid black;
   color: black;
 }
 .btn.btn-default.btn-black:hover, .btn.btn-default.btn-black:active, .btn.btn-default.btn-black:focus {
-  background-color: #37b048;
+  background-color: #008F95;
   color: #fff;
 }
 .btn.btn-default.btn-grey {
@@ -1199,20 +1198,20 @@ textarea {
   background-color: rgba(0, 0, 0, 0.1);
 }
 .btn.btn-primary {
-  background-color: #37b048;
+  background-color: #008F95;
   color: #fff;
   border: none;
-  padding: 10px 15px;
+  padding: 20px 45px;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   background-color: #319d40;
 }
 .btn.btn-primary.btn-white {
   background-color: #fff;
-  color: #37b048;
+  color: #008F95;
 }
 .btn.btn-primary.btn-white:hover, .btn.btn-primary.btn-white:active, .btn.btn-primary.btn-white:focus {
-  color: #37b048;
+  color: #008F95;
 }
 .btn.btn-big {
   -moz-border-radius: 40px;
@@ -1244,7 +1243,7 @@ textarea {
   padding: 10px 8px;
 }
 .btn.time-radio.active {
-  background-color: #37b048;
+  background-color: #008F95;
   color: #fff;
 }
 .btn.time-radio.not-available {
