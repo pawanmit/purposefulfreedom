@@ -177,6 +177,10 @@ a {
   transition: 0.3s;
   color: #000000;
 }
+
+ #footer {
+    background-color: #008F95;
+  }
 a:hover, a:focus, a:active {
   color: #2b8938;
   text-decoration: none;
@@ -1490,4 +1494,3 @@ textarea {
   .icon-shortcut {
     display: none;
   }
-}
