@@ -175,3 +175,14 @@ function equalHeight(container){
         }
     });
 }
+
+var querystring = window.location.search.substr(1);
+
+$('a').each(function() {
+    var href = $(this).attr('href');
+
+    if (href && querystring) {
+        href += (href.match(/\?/) ? '&' : '?') + querystring;
+        $(this).attr('href', href);
+    }
+});
