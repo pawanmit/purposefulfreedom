@@ -187,19 +187,7 @@ $('a').each(function() {
     }
 });
 
-function getUrlVars()
-{
-    var vars = [], hash;
-    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-    for(var i = 0; i < hashes.length; i++)
-    {
-        hash = hashes[i].split('=');
-        vars.push(hash[0]);
-        vars[hash[0]] = hash[1];
-    }
-    return vars;
-}
-
-    var adTracking = getUrlVars['ad_tracking'];
-    if (value !== '')
-        document.forms[0].elements["meta_adtracking"].value = adTracking;
+    var match = RegExp('[?&]' + 'ad_tracking' + '=([^&]*)').exec(window.location.search);
+    var adTracking  = match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+    if (adTracking !== '')
+        document.forms[0].elements['meta_adtracking'].value = adTracking;
