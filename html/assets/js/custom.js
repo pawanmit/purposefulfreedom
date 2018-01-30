@@ -186,3 +186,20 @@ $('a').each(function() {
         $(this).attr('href', href);
     }
 });
+
+function getUrlVars()
+{
+    var vars = [], hash;
+    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+    for(var i = 0; i < hashes.length; i++)
+    {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+    }
+    return vars;
+}
+
+    var adTracking = getUrlVars['ad_tracking'];
+    if (value !== '')
+        document.forms[0].elements["meta_adtracking"].value = adTracking;

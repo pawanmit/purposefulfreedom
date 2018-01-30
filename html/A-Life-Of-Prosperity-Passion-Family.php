@@ -1,6 +1,6 @@
 <?php 
-     $default_landing_page = 'video-training';
-     $available_landing_pages=array('video-training','video-training-1');
+     $default_landing_page = 'embrace_success';
+     $available_landing_pages=array('embrace_success','financial_freedom', 'marketing_education');
      $landing_page_name = get_landing_page($default_landing_page, $available_landing_pages);    
      $host = $_SERVER['HTTP_HOST']; 
      $landing_page_url = $host . '/' .  $landing_page_name;
